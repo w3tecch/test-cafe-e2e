@@ -8,7 +8,7 @@ export const getBrowserTitle = ClientFunction(() => document.title);
 /**
  * Authentication handling example
  */
-const regularUser = Role(`${process.env.HOST}/#/login`, async t => {
+const regularUser = Role(`${process.env.HOST}/#/login`, async (t) => {
   await t
     .click('.login__button button')
     .typeText('.ui-inputfield', process.env.EMAIL)
@@ -19,4 +19,4 @@ const regularUser = Role(`${process.env.HOST}/#/login`, async t => {
 
 export const handleAuthentication = async (t: TestController) => {
   await t.useRole(regularUser);
-}
+};
