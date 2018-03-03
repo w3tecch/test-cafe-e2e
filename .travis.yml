@@ -12,6 +12,7 @@ install:
   - yarn install
 
 script:
+  - cp .env.example .env
   - npm run ci
 
 notifications:

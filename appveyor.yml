@@ -6,6 +6,7 @@ install:
   - yarn install
 
 test_script:
+  - copy /y .env.example .env
   - npm run ci
 
 build: off
