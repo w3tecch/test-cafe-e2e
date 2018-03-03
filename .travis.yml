@@ -1,0 +1,19 @@
+dist: trusty
+sudo: required
+
+addons:
+  chrome: stable
+
+language: node_js
+node_js:
+  - "8.9.4"
+
+install:
+  - yarn install
+
+script:
+  - cp .env.example .env
+  - npm run ci
+
+notifications:
+  email: false

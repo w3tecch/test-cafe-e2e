@@ -1,4 +1,8 @@
 
+[![Build Status](https://travis-ci.org/w3tecch/test-cafe-e2e.svg?branch=master)](https://travis-ci.org/w3tecch/test-cafe-e2e)
+[![Build status](https://ci.appveyor.com/api/projects/status/bb3h9352qx9w6s6x/branch/master?svg=true)](https://ci.appveyor.com/project/dweber019/test-cafe-e2e/branch/master)
+[![David Dependancy Status](https://david-dm.org/w3tecch/test-cafe-e2e.svg)](https://david-dm.org/w3tecch/test-cafe-e2e)
+
 # Installation
 
 You need to set up your development environment before you can do anything.
@@ -50,9 +54,9 @@ The `helper.ts` can also be extended.
 
 ## Documentation
 
-[Here you can find help about seleting elements (e.g. get text)](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors.html)
+[Here you can find help about element selection (e.g. get text)](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors.html)
 
-[Here you can find help about actions elements (e.g. clicks)](https://devexpress.github.io/testcafe/documentation/test-api/actions/)
+[Here you can find help about actions for elements (e.g. clicks)](https://devexpress.github.io/testcafe/documentation/test-api/actions/)
 
 [Here you can find help about Aurelia specific stuff](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/framework-specific-selectors.html#aurelia)
 
@@ -61,3 +65,12 @@ The `helper.ts` can also be extended.
 To run the all test headless use `npm run ci`.
 
 Additional information about CI integrations can be found [here](https://devexpress.github.io/testcafe/documentation/recipes/integrating-testcafe-with-ci-systems/).
+
+## Additional resources
+Here a list of additional resources and useful plugins.
+- [Simple manual mobile testing](https://devexpress.github.io/testcafe/documentation/recipes/testing-on-remote-computers-and-mobile-devices.html)
+- [Debugging with Visual Studio Code](https://devexpress.github.io/testcafe/documentation/recipes/debugging-with-visual-studio-code.html)
+- [Browser support](https://devexpress.github.io/testcafe/documentation/using-testcafe/common-concepts/browsers/browser-support.html)
+- [Reporters](https://devexpress.github.io/testcafe/documentation/using-testcafe/common-concepts/reporters.html)
+- [BrowserStack](https://github.com/DevExpress/testcafe-browser-provider-browserstack)
+- [Electron](https://github.com/DevExpress/testcafe-browser-provider-electron)

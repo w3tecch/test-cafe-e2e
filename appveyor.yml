@@ -1,0 +1,12 @@
+environment:
+  nodejs_version: "8"
+
+install:
+  - ps: Install-Product node $env:nodejs_version
+  - yarn install
+
+test_script:
+  - copy /y .env.example .env
+  - npm run ci
+
+build: off

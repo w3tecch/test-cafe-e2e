@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "E2E testing for almost any frontend app",
   "scripts": {
+    "pretest": "npm run tslint",
     "test": "testcafe chrome tests/**/*.spec.ts",
     "test:single": "testcafe chrome",
-    "ci": "testcafe chrome:headless tests/**/*.spec.ts"
+    "preci": "npm run tslint",
+    "ci": "testcafe chrome:headless tests/**/*.spec.ts",
+    "tslint": "tslint -c tslint.json 'tests/**/*.ts'"
   },
   "bugs": {
     "url": "https://github.com/w3tecch/test-cafe-e2e/issues"
@@ -30,6 +33,7 @@
     "@types/dotenv": "^4.0.2",
     "dotenv": "^4.0.0",
     "testcafe": "^0.18.5",
-    "testcafe-aurelia-selectors": "^0.1.3"
+    "testcafe-aurelia-selectors": "^0.1.3",
+    "tslint": "^5.9.1"
   }
 }

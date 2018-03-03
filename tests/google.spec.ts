@@ -11,16 +11,14 @@ fixture`Google`
   //   await handleAuthentication(t);
   // });
 
-test('Should display google start page', async t => {
+test('Should display google start page', async (t) => {
 
   const title = await getBrowserTitle();
   await t
     .expect(title).eql('Google');
 });
 
-
-
-test('Should show results for e2e testing', async t => {
+test('Should show results for e2e testing', async (t) => {
 
   const searchTerm = 'e2e testing';
   const searchInput = Selector('#lst-ib');
