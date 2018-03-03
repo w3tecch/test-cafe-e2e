@@ -1,6 +1,6 @@
 {
   "name": "test-cafe-e2e",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "E2E testing for almost any frontend app",
   "scripts": {
     "pretest": "npm run tslint",
