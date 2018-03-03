@@ -5,6 +5,8 @@
 
 # Installation
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/w3tecch/test-cafe-e2e.svg)](https://greenkeeper.io/)
+
 You need to set up your development environment before you can do anything.
 
 Install [Node.js and NPM](https://nodejs.org/en/download/)
