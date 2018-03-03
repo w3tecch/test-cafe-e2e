@@ -1,5 +1,7 @@
 
 [![Build Status](https://travis-ci.org/w3tecch/test-cafe-e2e.svg?branch=master)](https://travis-ci.org/w3tecch/test-cafe-e2e)
+[![Build status](https://ci.appveyor.com/api/projects/status/bb3h9352qx9w6s6x/branch/master?svg=true)](https://ci.appveyor.com/project/dweber019/test-cafe-e2e/branch/master)
+[![David Dependancy Status](https://david-dm.org/w3tecch/test-cafe-e2e.svg)](https://david-dm.org/w3tecch/test-cafe-e2e)
 
 # Installation
 
