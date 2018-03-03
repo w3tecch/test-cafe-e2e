@@ -1,4 +1,6 @@
 
+[![Build Status](https://travis-ci.org/w3tecch/test-cafe-e2e.svg?branch=master)](https://travis-ci.org/w3tecch/test-cafe-e2e)
+
 # Installation
 
 You need to set up your development environment before you can do anything.
