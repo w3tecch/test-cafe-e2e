@@ -46,11 +46,25 @@ npm run test:single <path-to-file>
 npm run test:single tests/test-case.spec.ts
 ```
 
+or run all test in live (watch) mode
+```bash
+npm run live
+```
+
 ## Write tests
 
 All test are located in `tests/`. See example `estate.ts`.
 There is also a helper utility `helper.ts` which can be imported and provides some help.
 The `helper.ts` can also be extended.
+
+## I have lots of tests but would like to restart only one (only live command)
+When you work on a particular test, just add the `.only` call for it:
+
+```
+test.only('Current test', async t => {});
+```
+
+Once you are done with it and ready to run the whole suite, just remove the `.only` directive and save the file.
 
 ## Documentation
 
