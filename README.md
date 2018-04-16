@@ -1,9 +1,29 @@
+<p align="center">
+  <img src="./w3tec-logo.png" alt="w3tec" width="400" />
+</p>
 
-[![Build Status](https://travis-ci.org/w3tecch/test-cafe-e2e.svg?branch=master)](https://travis-ci.org/w3tecch/test-cafe-e2e)
-[![Build status](https://ci.appveyor.com/api/projects/status/bb3h9352qx9w6s6x/branch/master?svg=true)](https://ci.appveyor.com/project/dweber019/test-cafe-e2e/branch/master)
-[![devDependencies Status](https://david-dm.org/w3tecch/test-cafe-e2e/dev-status.svg)](https://david-dm.org/w3tecch/test-cafe-e2e?type=dev)
+<h1 align="center">TestCafé Boilerplate</h1>
 
-# Installation
+<p align="center">
+  <a href="https://david-dm.org/w3tecch/test-cafe-e2e">
+    <img src="https://david-dm.org/w3tecch/test-cafe-e2e/status.svg?style=flat" alt="dependency" />
+  </a>
+  <a href="https://travis-ci.org/w3tecch/test-cafe-e2e">
+    <img src="https://travis-ci.org/w3tecch/test-cafe-e2e.svg?branch=master" alt="travis" />
+  </a>
+  <a href="https://ci.appveyor.com/project/dweber019/test-cafe-e2e/branch/master">
+    <img src="https://ci.appveyor.com/api/projects/status/bb3h9352qx9w6s6x/branch/master?svg=true&passingText=Windows%20passing&pendingText=Windows%20pending&failingText=Windows%20failing" alt="appveyor" />
+  </a>
+</p>
+
+<p align="center">
+  <b>A full configured and ready to go boilerplate/skeleton for e2e testing with TestCafé</b>.<br>
+  <sub>Made with ❤️ by w3tec and <a href="https://github.com/w3tecch/template-gen/graphs/contributors">contributors</a></sub>
+</p>
+
+<br />
+
+## ❯ Installation
 
 You need to set up your development environment before you can do anything.
 
@@ -28,11 +48,11 @@ Then copy the `.env.example` to `.env` and replace the setting in the file with 
 cp .env.example .env
 ```
 
-# Usage
+## ❯ Usage
 
 This repository uses the [testcafe](https://devexpress.github.io/testcafe/) library to perform e2e tests.
 
-## Running the tests
+### Running the tests
 
 You can run all tests by
 ```bash
@@ -51,13 +71,13 @@ or run all test in live (watch) mode
 npm run live
 ```
 
-## Write tests
+### Write tests
 
 All test are located in `tests/`. See example `estate.ts`.
 There is also a helper utility `helper.ts` which can be imported and provides some help.
 The `helper.ts` can also be extended.
 
-## I have lots of tests but would like to restart only one (only live command)
+### I have lots of tests but would like to restart only one (only live command)
 When you work on a particular test, just add the `.only` call for it:
 
 ```
@@ -66,7 +86,7 @@ test.only('Current test', async t => {});
 
 Once you are done with it and ready to run the whole suite, just remove the `.only` directive and save the file.
 
-## Documentation
+## ❯ Documentation
 
 [Here you can find help about element selection (e.g. get text)](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/selectors.html)
 
@@ -74,13 +94,13 @@ Once you are done with it and ready to run the whole suite, just remove the `.on
 
 [Here you can find help about Aurelia specific stuff](https://devexpress.github.io/testcafe/documentation/test-api/selecting-page-elements/framework-specific-selectors.html#aurelia)
 
-## CI
+## ❯ CI
 
 To run the all test headless use `npm run ci`.
 
 Additional information about CI integrations can be found [here](https://devexpress.github.io/testcafe/documentation/recipes/integrating-testcafe-with-ci-systems/).
 
-## Additional resources
+## ❯ Additional resources
 Here a list of additional resources and useful plugins.
 - [Simple manual mobile testing](https://devexpress.github.io/testcafe/documentation/recipes/testing-on-remote-computers-and-mobile-devices.html)
 - [Debugging with Visual Studio Code](https://devexpress.github.io/testcafe/documentation/recipes/debugging-with-visual-studio-code.html)
